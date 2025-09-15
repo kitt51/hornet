@@ -1,0 +1,22 @@
+name = "Hornet"
+license = "GPLv3"
+licenselink = "https://www.gnu.org/licenses/gpl-3.0.en.html"
+description = "Light mode blog theme minimalist"
+
+homepage = "https://github.com/kitt51/hornet"
+
+tags = ["blog", "minimal","light","responsive","privacy"]
+features = [
+  "Light theme",
+  "Filter by tags",
+  "Next and previous",
+  "Responsive",
+  "No trackers",
+  "Privacy oriented blog"
+  "Minimal javascript",
+]
+
+[author]
+    name = "kitt51"
+    homepage = "https://github.com/kitt51"
+

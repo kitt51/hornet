@@ -1,0 +1,9 @@
+{{ define "main" }}
+  {{ .Content }}
+  {{ range site.RegularPages }}
+    <h2># {{ .LinkTitle }}</h2>
+    <date class="date">{{ .Date | time.Format ":date_medium" }}</date>
+    {{ .Summary }}
+    <a style="float:right" href="{{ .RelPermalink }}">...continue reading</a>
+  {{ end }}
+{{ end }}

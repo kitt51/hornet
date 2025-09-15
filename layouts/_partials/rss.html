@@ -1,0 +1,7 @@
+<div class="site-rss">
+  {{ range.Site.Params.links -}}
+  <li class="li-media">
+    <a href={{ .url }} > {{ .name }} </a>
+  </li>
+      {{- end }}
+</div>

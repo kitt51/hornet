@@ -1,0 +1,2 @@
+{{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+<title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
