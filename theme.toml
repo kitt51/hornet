@@ -12,8 +12,8 @@ features = [
   "Next and previous",
   "Responsive",
   "No trackers",
-  "Privacy oriented blog"
-  "Minimal javascript",
+  "Privacy oriented blog",
+  "Minimal javascript"
 ]
 
 [author]
