@@ -3,14 +3,7 @@
   font-family: 'Crimson Pro';
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/crimson-pro-v27-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-@font-face {
-  font-display: swap;
-  font-family: 'Crimson Pro';
-  font-style: normal;
-  font-weight: 600;
-  src: url('../fonts/crimson-pro-v27-latin-600.woff2') format('woff2'); 
+  src: url('../fonts/FiraSans-Regulta.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 
@@ -22,7 +15,7 @@ body {
   	padding: 1rem;
   	margin: 0 auto;
     background-color: #fefaf7;
-    font-family: "Crimson pro", sans-serif;
+    font-family: "FiraSans Regular", sans-serif;
     font-weight: 500;
     font-size:105%;
 }
